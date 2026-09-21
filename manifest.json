@@ -5,9 +5,9 @@
     {
       "chipFamily": "ESP32-C3",
       "parts": [
-        { "path": "bootloader.bin",      "offset": 4096,  "flashMode": "dio" },
-        { "path": "partition-table.bin", "offset": 32768, "flashMode": "dio" },
-        { "path": "firmware.bin",        "offset": 65536, "flashMode": "dio" }
+        { "path": "bootloader.bin",      "offset": 4096 },
+        { "path": "partition-table.bin", "offset": 32768 },
+        { "path": "firmware.bin",        "offset": 65536 }
       ]
     }
   ]
